@@ -1,3 +1,22 @@
 table {
     width: 100%;
-  }
+}
+
+td.mat-cell {
+    line-height: 3.5rem !important;
+}
+
+.filter-box {
+    align-items: center;
+}
+
+.mat-radio-button {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.inline {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+}

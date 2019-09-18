@@ -4,7 +4,7 @@ import { SearchRoutingModule } from './search-routing.module';
 import { SearchComponent } from './search.component';
 import { MaterialModule } from 'src/app/shared/material/material.module';
 import { UsercontrolModule } from 'src/app/shared/user-controls/usercontrol.module';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [SearchComponent],
@@ -12,7 +12,8 @@ import { UsercontrolModule } from 'src/app/shared/user-controls/usercontrol.modu
     CommonModule,
     SearchRoutingModule,
     MaterialModule,
-    UsercontrolModule
+    UsercontrolModule,
+    FormsModule
   ]
 })
 export class SearchModule { }

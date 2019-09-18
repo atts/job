@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponentComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  logOut = () => {
+    localStorage.clear();
+    window.location.href = '/';
   }
 
 }

@@ -1,0 +1,215 @@
+.header {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    font-size: 0.875rem;
+    background: #1A1A24;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.primary-header-nav {
+    position: relative;
+    margin-top: 32px;
+}
+
+.header-title-container {
+    font-size: 0.9rem;
+    padding-right: 40px;
+     ::ng-deep select {
+        font-size: inherit;
+        margin-bottom: -0.7rem;
+    }
+    .right-part {
+        button {
+            font-size: 14px;
+            padding: 0.3rem 0.7rem;
+            margin-top: -0.3rem;
+            &:last-of-type {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+img {
+    margin: 8px 10px auto 10px;
+    height: 30px;
+}
+
+ul>li {
+    margin: 0 0.25vw;
+}
+
+.user_menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+    font-size: 0.75rem;
+    &--wrapper {
+        display: inline-block;
+        position: relative;
+        &:hover .user_menu {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+    &--item {
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+            color: #eee;
+            background-color: #ffe600;
+        }
+    }
+}
+
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.router-link-active {
+    color: #ffe600;
+    box-shadow: inset 0 -4px 0 #ffe600;
+}
+
+.router-link-active:hover {
+    text-decoration: none;
+    color: #ffe600;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.user_info {
+    position: absolute;
+    top: 34px;
+    right: 0;
+    opacity: 1;
+    z-index: 11;
+    margin: 0;
+}
+
+.vl {
+    border-left: 1px solid #2E2E38;
+    height: 45px;
+    // left: 50%;
+    padding-left: 10px;
+    top: 0;
+    padding-bottom: 1%;
+}
+
+.collapseIcon {
+    font-size: 20px;
+    color: white;
+    float: right;
+    width: 70px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.client-name-div {
+    height: 60px;
+    text-align: center;
+}
+
+.app-name {
+    margin: auto;
+    font-size: 18px;
+}
+
+.button__badge {
+    background-color: #fa3e3e;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 0;
+    height: 7px;
+    width: 7px;
+}
+
+.bellicon {
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding: 2px 5px;
+    margin-right: 35px;
+}
+
+.drop-down {
+    width: 132px;
+    margin-bottom: 20px;
+}
+
+.selectdash {
+    margin: auto;
+    border: none !important;
+    outline: none !important;
+}
+
+select.selectdashtype option {
+    background-color: #fff;
+    color: #1A1A24;
+}
+
+.selectdashtype {
+    font-size: 14px;
+    min-width: 120px;
+    background-color: #1A1A24;
+    height: 25px;
+    color: #fff;
+    border: none !important;
+    outline: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+i.arrow-icon::before {
+    vertical-align: middle;
+    pointer-events: none;
+    margin-left: -25px;
+}
+
+span.separator {
+    margin: auto 15px auto 6px;
+    text-align: center;
+    height: 25px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.padClass li {
+    padding-right: 10px;
+}
+
+.sideNavIcon {
+    cursor: pointer !important;
+    width: 70px;
+    height: 60px;
+}
+
+.sideNavIcon:hover {
+    background-color: #2E2E38;
+}
+
+.hideNavIcon {
+    background-color: #2E2E38;
+}

@@ -1,2 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+.display-box {
+    min-height: 44rem !important;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
